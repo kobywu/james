@@ -17,6 +17,7 @@ function one(el) {
 	document.getElementById("bottom").classList.remove("yellow");
 	document.getElementById("top").classList.toggle("purple");
 	document.getElementById("bottom").classList.toggle("purple");
+	document.getElementById("text").innerHTML = "Galaxy Look";
 	
 }
 function two(el) {
@@ -27,13 +28,15 @@ function two(el) {
 	document.getElementById("bottom").classList.remove("purple");
 	document.getElementById("top").classList.remove("yellow");
 	document.getElementById("bottom").classList.remove("yellow");
+	document.getElementById("text").innerHTML = "Skull Look";
 }
 function three(el) {
-  document.getElementById("three").classList.toggle("sunflower");
-  document.getElementById("top").classList.remove("blue");
+	document.getElementById("three").classList.toggle("sunflower");
+	document.getElementById("top").classList.remove("blue");
 	document.getElementById("bottom").classList.remove("blue");
 	document.getElementById("top").classList.remove("purple");
 	document.getElementById("bottom").classList.remove("purple");
   	document.getElementById("top").classList.toggle("yellow");
 	document.getElementById("bottom").classList.toggle("yellow");
+	document.getElementById("text").innerHTML = "Sunflower Look";
 }
