@@ -10,11 +10,11 @@ function regular(el){
 }
 
 function one(el) {
-	document.getElementById('one').src="image/sunflower.jpg";
+	document.getElementById("one").classList.toggle("galaxy");
 }
 function two(el) {
-	document.getElementById('two').src="image/highlight.jfif";
+	document.getElementById("two").classList.toggle("skull");
 }
 function three(el) {
-	document.getElementById('three').src="image/carpet.jpg";
+  document.getElementById("three").classList.toggle("sunflower");
 }

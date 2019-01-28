@@ -43,3 +43,15 @@ body {
 	max-height: 100%;
 	max-width: 100%;
 }
+
+.sunflower{
+	content:url("image/sunflower.jpg");
+}
+
+.skull{
+	content:url("image/skull.jpg");
+}
+
+.galaxy{
+	content:url("image/galaxy.jpg");
+}
