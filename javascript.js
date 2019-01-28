@@ -11,10 +11,29 @@ function regular(el){
 
 function one(el) {
 	document.getElementById("one").classList.toggle("galaxy");
+	document.getElementById("top").classList.remove("blue");
+	document.getElementById("bottom").classList.remove("blue");
+	document.getElementById("top").classList.remove("yellow");
+	document.getElementById("bottom").classList.remove("yellow");
+	document.getElementById("top").classList.toggle("purple");
+	document.getElementById("bottom").classList.toggle("purple");
+	
 }
 function two(el) {
 	document.getElementById("two").classList.toggle("skull");
+	document.getElementById("top").classList.toggle("blue");
+	document.getElementById("bottom").classList.toggle("blue");
+	document.getElementById("top").classList.remove("purple");
+	document.getElementById("bottom").classList.remove("purple");
+	document.getElementById("top").classList.remove("yellow");
+	document.getElementById("bottom").classList.remove("yellow");
 }
 function three(el) {
   document.getElementById("three").classList.toggle("sunflower");
+  document.getElementById("top").classList.remove("blue");
+	document.getElementById("bottom").classList.remove("blue");
+	document.getElementById("top").classList.remove("purple");
+	document.getElementById("bottom").classList.remove("purple");
+  	document.getElementById("top").classList.toggle("yellow");
+	document.getElementById("bottom").classList.toggle("yellow");
 }

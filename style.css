@@ -14,6 +14,7 @@ body {
 .row {
 	height: 30%;
 	width: 100%;
+	background-color:#A5BCF0;
 }
 .pic-holder {
 	display:flex;
@@ -25,9 +26,14 @@ body {
 	height:100%;
 }
 .purple {
-	background-color: #DA70D6;
+	background-color:#935890;
 }
-
+.blue{
+	background-color:#75A5B1;
+}
+.yellow{
+	background-color:#F6DB96;
+}
 /* When possible, organize CSS classes in alphabetical order */
 
 .opaque {
